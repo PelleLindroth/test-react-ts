@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat renders Chat component correctly with chat icon 1`] = `
+<Fragment>
+  <img
+    alt="chat-icon"
+    onClick={[Function]}
+    src="chat-icon.png"
+  />
+</Fragment>
+`;
+
+exports[`Chat renders full Chat component correctly when clicking on chat icon 1`] = `
+<Fragment>
+  <img
+    alt="chat-icon"
+    onClick={[Function]}
+    src="chat-icon.png"
+  />
+  <ul
+    className="message-history"
+  >
+    <li
+      className="message"
+      key="345u5y2uy"
+    >
+      Hey how are you
+    </li>
+    <li
+      className="message"
+      key="kjh6jh74567"
+    >
+      Never you mind
+    </li>
+    <li
+      className="message"
+      key="jhg324jh"
+    >
+      ok
+    </li>
+  </ul>
+  <form
+    onSubmit={[Function]}
+  >
+    <label
+      htmlFor="chat-input"
+    >
+      Type your message here
+    </label>
+    <input
+      id="chat-input"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <button>
+      Send
+    </button>
+  </form>
+</Fragment>
+`;
