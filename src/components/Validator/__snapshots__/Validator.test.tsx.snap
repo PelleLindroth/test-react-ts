@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Validator renders component correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <p>
+    Please type your name
+  </p>
+  <input
+    className="invalid"
+    id="name"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</form>
+`;
