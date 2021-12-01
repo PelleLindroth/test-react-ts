@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Greeting shallow renders 1`] = `
+<h1>
+  Hello world again
+</h1>
+`;
