@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header mounts Header correctly with NavBar 1`] = `
+<Header>
+  <header>
+    Current view: 0
+    <NavBar
+      items={
+        Array [
+          "Home",
+          "About",
+          "Contact",
+          "Profile",
+        ]
+      }
+      onSetView={[Function]}
+    >
+      <nav>
+        <ul
+          className="menu"
+        >
+          <li
+            className="menu-item selected"
+            key="Home"
+            onClick={[Function]}
+          >
+            Home
+          </li>
+          <li
+            className="menu-item "
+            key="About"
+            onClick={[Function]}
+          >
+            About
+          </li>
+          <li
+            className="menu-item "
+            key="Contact"
+            onClick={[Function]}
+          >
+            Contact
+          </li>
+          <li
+            className="menu-item "
+            key="Profile"
+            onClick={[Function]}
+          >
+            Profile
+          </li>
+        </ul>
+      </nav>
+    </NavBar>
+  </header>
+</Header>
+`;
